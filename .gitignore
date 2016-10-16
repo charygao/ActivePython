@@ -1,3 +1,11 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#Access
+ldb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
