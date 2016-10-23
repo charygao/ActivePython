@@ -9,9 +9,12 @@ sys.path.append(lib_path)
 from imp import reload
 
 #从模块test_class引入类people
-
 from test_class import people
 reload(sys.modules['test_class'])
+
+#从模块dbconn引入类Py4Jet
+from dbconn import Py4Jet
+reload(sys.modules['dbconn'])
 
 %>
 <html>
